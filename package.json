@@ -1,0 +1,21 @@
+{
+  "name": "hello-parcel-2-npm-packages-using-pkg-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node -r @swc-node/register index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@okeeffed/hello-parcel-2-npm-packages": "^1.0.0"
+  },
+  "devDependencies": {
+    "@swc-node/register": "^1.3.5",
+    "@tsconfig/recommended": "^1.0.1",
+    "tslib": "^2.3.1",
+    "typescript": "^4.4.4"
+  }
+}
